@@ -74,10 +74,11 @@ html body header .container-fluid.mainMenu > .row > div .iconSoc .row > div {
   background: url(../images/pic11.jpg) center center no-repeat;
   height: 46px;
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 html body header .container-fluid.mainMenu > .row > div .iconSoc .row > div img {
-  max-height: 20px;
-  margin: auto;
+  /*margin: auto;*/
 }
 html body header .logo > p {
   font-size: 18px;
@@ -185,7 +186,7 @@ html body main section.sec2 .rubric {
   margin-bottom: 130px;
 }
 html body main section.sec2 .rubric .round p {
-  margin: auto;
+  /*margin: auto;*/
   line-height: 15px;
 }
 html body main section.sec2 .rubric .round p .greenText {
@@ -236,10 +237,12 @@ html body main section.sec3 .containerForRound .circuleAndText .circule {
   height: 164px;
   background: url(../images/pic8.jpg) center center no-repeat transparent;
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 html body main section.sec3 .containerForRound .circuleAndText .circule img {
-  margin: auto;
-  max-height: 65px;
+  /*margin: auto;
+                                max-height:65px;*/
 }
 html body main section.sec3 .containerForRound .circuleAndText .textUnderCircule p {
   font-size: 12px;
@@ -295,7 +298,7 @@ html body main section.sec7 .rubric .row {
 }
 html body main section.sec7 .rubric .row .ecology {
   background: url(../images/pic9.jpg) center center no-repeat;
-  min-height: 123px;
+  height: 123px;
   display: flex;
 }
 html body main section.sec7 .rubric .row .ecology img {
@@ -329,12 +332,14 @@ html body main section.secNav > div > .row {
 }
 html body main section.secNav > div > .row .navBottom ul {
   display: flex;
+  justify-content: space-around;
+  align-items: center;
   margin: 0;
   height: 50px;
 }
 html body main section.secNav > div > .row .navBottom ul > li {
   display: inline-block;
-  margin: auto;
+  /*margin: auto;*/
 }
 html body main section.secNav > div > .row .navBottom ul > li a {
   font-family: "SFUIText-Light", sans-serif;
@@ -361,11 +366,12 @@ html body main section.secContacts .socIcon {
   background: url(../images/pic10.jpg) center center no-repeat;
   height: 70px;
   display: flex;
+  justify-content: center;
+  align-items: center;
   margin-top: 36px;
 }
 html body main section.secContacts .socIcon img {
-  max-height: 40px;
-  margin: auto;
+  /*margin: auto;*/
 }
 html body footer {
   border-top: 1px solid #00888d;
@@ -450,7 +456,7 @@ h4 {
   text-transform: uppercase;
   color: #00888d;
   width: 60%;
-  border-bottom: 1px solid #00888d99;
+  border-bottom: 1px solid rgba(0, 136, 141, 0.95);
   margin: 0;
   padding-bottom: 6px;
   padding-right: 15px;
@@ -464,7 +470,7 @@ h4 + p + a {
   font-family: "SFUIText-Light", sans-serif;
   font-size: 16px;
   color: #1f49fe;
-  border-bottom: 1px solid #337ab766;
+  border-bottom: 1px solid rgba(51, 122, 183, 0.66);
 }
 h4 + p + a:hover {
   border-bottom: 1px solid #23527c;
@@ -478,11 +484,12 @@ h5 {
   padding: 5px 10%;
 }
 .round {
-  background: url(../images/pic4.jpg) no-repeat;
-  background-position-x: center;
+  background: url(../images/pic4.jpg) center top no-repeat;
   height: 180px;
   margin-top: 70px;
   display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .sec6Right {
   margin-top: 10px;

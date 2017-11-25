@@ -79,9 +79,11 @@ html{
                                         background: url(../images/pic11.jpg) center center no-repeat;
                                         height: 46px;
                                         display: flex;
+                                        justify-content: center;
+                                        align-items: center;
                                         img {
-                                            max-height: 20px;
-                                            margin: auto;
+                                            
+                                            /*margin: auto;*/
                                         }
                                     }
                                 }
@@ -206,7 +208,7 @@ html{
                     margin-bottom: 130px;
                     .round{
                     p {
-                        margin: auto;
+                        /*margin: auto;*/
                         line-height: 15px;
                         
                         .greenText {
@@ -258,9 +260,11 @@ html{
                             height: 164px;
                             background: url(../images/pic8.jpg) center center no-repeat transparent;
                             display: flex;
+                            justify-content: center;
+                            align-items: center;
                             img {
-                                margin: auto;
-                                max-height:65px;
+                                /*margin: auto;
+                                max-height:65px;*/
                             }
                         }
                         .textUnderCircule {
@@ -326,8 +330,9 @@ html{
                         margin-top: 60px;
                         .ecology{
                             background: url(../images/pic9.jpg) center center no-repeat;
-                            min-height: 123px;
+                            height: 123px;
                             display: flex;
+                            
                             img {
                                 margin: auto;
                             }
@@ -363,11 +368,13 @@ html{
                         .navBottom {
                             ul {
                                 display: flex;
+                                justify-content: space-around;
+                                align-items: center;
                                 margin: 0;
                                 height: 50px;
                                 >li {
                                     display: inline-block;
-                                    margin: auto;
+                                    /*margin: auto;*/
                                     a {
                                        font-family: "SFUIText-Light", sans-serif;
                                        font-size:20px;
@@ -398,10 +405,12 @@ html{
                     background: url(../images/pic10.jpg) center center no-repeat;
                     height: 70px;
                     display: flex;
+                    justify-content: center;
+align-items: center;
                     margin-top: 36px;
                     img {
-                        max-height: 40px;
-                        margin: auto;
+                        
+                        /*margin: auto;*/
                     }
                 }
             }
@@ -495,7 +504,7 @@ h4 {
     text-transform: uppercase;
     color: @colorH;
     width: 60%;
-    border-bottom: 1px solid #00888d99;
+    border-bottom: 1px solid rgba(0, 136, 141, 0.95);
     margin: 0;
     padding-bottom: 6px;
     padding-right: 15px;
@@ -509,7 +518,7 @@ h4+p+a {
     font-family: "SFUIText-Light", sans-serif;
     font-size:16px;
     color: #1f49fe;
-    border-bottom: 1px solid #337ab766;
+    border-bottom: 1px solid rgba(51, 122, 183, 0.66);
     &:hover {
         border-bottom: 1px solid #23527c;
         text-decoration: none;
@@ -523,12 +532,12 @@ h5 {
     padding: 5px 10%;
 }
 .round {
-    background: url(../images/pic4.jpg) no-repeat;
-    background-position-x: center;
-    
+    background: url(../images/pic4.jpg) center top no-repeat;
     height: 180px;
     margin-top:70px;
     display: flex;
+    flex-direction: column;
+justify-content: center;
 }
 .sec6Right{
     margin-top: 10px;
