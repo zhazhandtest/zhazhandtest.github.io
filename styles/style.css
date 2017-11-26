@@ -110,7 +110,8 @@ html body header .logo > p span.logo {
 html body header button.mainMenu {
   border: 0;
   background: transparent;
-  position: absolute;
+  position: fixed;
+  z-index: 20;
   top: 55px;
   right: 30px;
 }
